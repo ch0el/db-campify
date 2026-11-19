@@ -5,7 +5,7 @@ declare
   staff_id uuid;
   program_id uuid;
 begin
-  select id into staff_id from auth.users where email = 'replace-with-staff-email@example.com';
+  select id into staff_id from auth.users where email = 'joel.ihm@duke.edu';
   if staff_id is null then raise exception 'Create the staff auth user first and replace the email in bootstrap.sql'; end if;
   insert into public.programs(name) values ('Duke Baseball Camps') returning id into program_id;
   insert into public.program_members(program_id, user_id) values(program_id, staff_id);

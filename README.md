@@ -30,7 +30,7 @@ SQL tests execute the migration inside in-memory PostgreSQL (PGlite), including 
 6. Restart the local dev server. Sign in with the staff credentials. A new project starts empty; upload a CSV to populate it.
 7. For a hosted build, supply the same public build-time values and rebuild/redeploy. Vite embeds them at build time; changing runtime environment settings alone does not update the compiled frontend. Configure the live site origin in Supabase Auth's URL settings if adding email flows later.
 
-The repository contains the complete backend migration, but no hosted Supabase project has been provisioned and no credentials are embedded. The private Sites preview is usable immediately in demo mode. Live database connectivity and Supabase-hosted authentication still need verification against your new project.
+The hosted production build is configured for the supplied Supabase project through `.env.production`. This tracked file contains only the public project URL and publishable browser key. Supabase Auth responds successfully, and anonymous access to programs and enrollment details is denied. Staff sign-in, program membership, and authenticated imports still need verification with a staff account. Demo mode remains available. Local development uses your ignored `.env` file; production builds use `.env.production`.
 
 ## CSV contract (placeholder Teamworks mapping)
 
