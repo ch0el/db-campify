@@ -4,8 +4,8 @@ import { Calendar } from './components/Calendar';
 import { chartColors, CohortChart, Donut, YearChart } from './components/Charts';
 import { Upload } from './components/Upload';
 import { confirmed, distribution, enrollmentYear, yearStats } from './lib/analytics';
-import { demoDataset } from './lib/demo';
-import { importRows, loadDataset, loadProfile, loadProgram, reportIssue, saveGoal, saveProfile, supabase } from './lib/supabase';
+import { demoDataset, isSampleEnrollment } from './lib/demo';
+import { clearSampleData, importRows, loadDataset, loadProfile, loadProgram, reportIssue, saveGoal, saveProfile, supabase } from './lib/supabase';
 import { featureKeys, type Dataset, type Enrollment, type Feature, type Profile } from './lib/types';
 
 const labels: Record<string, string> = { overview: 'Overview', goals: 'Goals', players: 'New players', demographics: 'Demographics', calendar: 'Calendar', enrollment: 'Enrollment', upload: 'Upload CSV', features: 'Choose features', profile: 'Your profile' };
@@ -93,6 +93,7 @@ function StatsTable({ stats, players = false }: { stats: ReturnType<typeof yearS
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null); const [demo, setDemo] = useState(false); const [authReady, setAuthReady] = useState(!supabase);
+  const demoImportRows = useRef(new Map<string, string[]>());
   const [data, setData] = useState<Dataset>(emptyData); const [profile, setProfile] = useState<Profile>(defaultProfile); const [program, setProgram] = useState('');
   const currentYear = Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric' }).format(new Date()));
   const [page, setPage] = useState(getPage); const [year, setYear] = useState(currentYear); const [loading, setLoading] = useState(false); const [error, setError] = useState(''); const [updated, setUpdated] = useState('');
@@ -125,6 +126,7 @@ export default function App() {
       // Mirror the normalized backend: latest camp/player details apply to all their registrations.
       const camps = new Map(rows.map(r => [r.camp_id, r])); const players = new Map(rows.map(r => [r.participant_id, r.participant_name]));
       const enrollments = [...merged.values()].map(r => { const camp = camps.get(r.camp_id); return { ...r, ...(camp ? { camp_name: camp.camp_name, camp_type: camp.camp_type, starts_on: camp.starts_on, ends_on: camp.ends_on } : {}), participant_name: players.get(r.participant_id) ?? r.participant_name }; });
+      demoImportRows.current.set(hash, rows.map(r => r.registration_id));
       setData({ ...data, enrollments, imports: [{ id: crypto.randomUUID(), file_hash: hash, file_name: name, imported_at: new Date().toISOString(), row_count: rows.length }, ...data.imports] });
       setUpdated(new Date().toISOString());
       return `${rows.length} enrollments processed in this demo session. Repeated IDs were updated.`;
@@ -132,6 +134,27 @@ export default function App() {
     const result = await importRows(program, name, hash, rows);
     await refresh();
     return result.duplicate ? 'This exact file was already imported. No rows changed.' : `${result.row_count} enrollments saved to Supabase.`;
+  }
+  async function clearSamples() {
+    if (demo) {
+      const removed = data.enrollments.filter(isSampleEnrollment).length;
+      setData(prev => {
+        const enrollments = prev.enrollments.filter(r => !isSampleEnrollment(r));
+        const remaining = new Set(enrollments.map(r => r.registration_id));
+        const imports = prev.imports.filter(i => {
+          const ids = demoImportRows.current.get(i.file_hash);
+          return !ids || ids.some(id => remaining.has(id));
+        });
+        return { ...prev, enrollments, imports };
+      });
+      setUpdated(new Date().toISOString());
+      return removed;
+    }
+    const result = await clearSampleData(program);
+    const next = await loadDataset(program);
+    setData(next);
+    setUpdated(new Date().toISOString());
+    return result.removed;
   }
   async function signOut() { try { if (!demo && supabase) { const { error } = await supabase.auth.signOut(); if (error) throw error; } setDemo(false); setUser(null); setData(emptyData); setProfile(defaultProfile); setError(''); go('overview'); } catch (e) { setError(errorText(e)); } }
   if (!authReady) return <div className="boot" role="status"><h1>Campify</h1><p>Checking your session…</p></div>;
@@ -145,7 +168,7 @@ export default function App() {
         {page === 'overview' && <Overview data={data} year={year} profile={profile} />}
         {['goals', 'players', 'demographics', 'enrollment'].includes(page) && <Analytics key={page} page={page} data={data} year={year} onGoal={persistGoal} />}
         {page === 'calendar' && <Calendar rows={data.enrollments} />}
-        {page === 'upload' && <Upload imports={data.imports} onImport={importFile} demo={demo} />}
+        {page === 'upload' && <Upload imports={data.imports} onImport={importFile} demo={demo} sampleCount={data.enrollments.filter(isSampleEnrollment).length} onClearSamples={clearSamples} />}
         {page === 'features' && <FeaturesPage profile={profile} onSave={persistProfile} />}
         {page === 'profile' && <ProfilePage profile={profile} email={demo ? 'mickey@example.test (demo)' : user?.email ?? ''} onSave={persistProfile} onSignOut={signOut} />}
       </>}

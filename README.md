@@ -23,7 +23,7 @@ SQL tests execute the migration inside in-memory PostgreSQL (PGlite), including 
 ## Connect a new Supabase project
 
 1. Create a project at https://supabase.com/dashboard. Keep the database password private.
-2. In **SQL Editor**, execute `supabase/migrations/202611190001_campify.sql` once. This creates tables, policies, a read view, and the validated import RPC.
+2. In **SQL Editor**, execute `supabase/migrations/202611190001_campify.sql` once, then execute `supabase/migrations/202611190002_clear_sample_data.sql`. This creates tables, policies, a read view, and the validated import RPC.
 3. In **Authentication → Users**, create a staff account using an email and password. This app uses email as the staff ID.
 4. In `supabase/bootstrap.sql`, replace the placeholder email with the staff email; execute it once in SQL Editor. This creates the Duke Baseball Camps program and grants that user membership. To add another staff user later, insert their auth UUID into `program_members` using the same program ID.
 5. Copy `.env.example` to `.env`. Set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` from the project's Connect dialog / API settings. A legacy public anon key also works. **Never use a service-role or secret key here.**
@@ -79,3 +79,9 @@ RLS limits data to authenticated program members. Membership is provisioned by a
 This initial version supports one program per staff account. Camp calendar entries are all-day because the placeholder export contains dates rather than times. Dataset reads are paginated in 1,000-row batches; large production histories may warrant server-side aggregate queries. Import history shows the most recent 50 files. No automatic refresh schedule is assumed.
 
 See `docs/IMPLEMENTATION.md` for design mapping and data decisions. Fonts are Geist/Geist Mono (SIL Open Font License); Figma assets were exported from the supplied Campify file for this implementation.
+
+## Clear sample data
+
+Open **Upload CSV → Sample data → Clear sample data**, review the count, then confirm. This deletes sample enrollments across all years in your own program, removes unused sample players/camps and unreferenced associated import receipts, and refreshes the dashboard. Real enrollments, staff access, profiles and goals are preserved. Sample IDs are reserved: `DEMO-2022-…` through `DEMO-2026-…`, `DEMO-P…`, and `DEMO-C2022-0` through `DEMO-C2026-2`. All three ID patterns must match before an enrollment is deleted. Do not use these reserved IDs for real Teamworks records.
+
+Existing databases require migration `202611190002_clear_sample_data.sql` once to enable this action.

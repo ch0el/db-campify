@@ -28,3 +28,10 @@ export function demoDataset(): Dataset {
   }
   return { enrollments, imports: [], goals: Array.from({ length: 5 }, (_, i) => ({ year: 2022 + i, target: [90, 110, 120, 140, 160][i] })) };
 }
+
+// Reserved IDs used only by the bundled synthetic sample CSV.
+export function isSampleEnrollment(row: Enrollment) {
+  return /^DEMO-202[2-6]-[0-9]+$/.test(row.registration_id)
+    && /^DEMO-P[0-9]+$/.test(row.participant_id)
+    && /^DEMO-C202[2-6]-[0-2]$/.test(row.camp_id);
+}

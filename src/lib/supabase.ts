@@ -51,3 +51,12 @@ export async function reportIssue(programId: string, description: string, page: 
   const { error } = await supabase!.from('issues').insert({ program_id: programId, description, page });
   if (error) throw error;
 }
+
+export async function clearSampleData(programId: string) {
+  const { data, error } = await supabase!.rpc('clear_sample_data', { p_program_id: programId });
+  if (error) {
+    if (error.code === 'PGRST202') throw new Error('Sample cleanup is not installed yet. Ask your administrator to apply the sample cleanup migration.');
+    throw error;
+  }
+  return data as { removed: number };
+}
