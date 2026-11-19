@@ -1,3 +1,4 @@
+import { PasswordRequest, PasswordSetup, InviteStaff, CreateAccount } from './components/AccountAccess';
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import type { User } from '@supabase/supabase-js';
 import { Calendar } from './components/Calendar';
@@ -22,7 +23,7 @@ function Modal({ title, onClose, children }: { title: string; onClose: () => voi
   return <dialog ref={ref} onCancel={onClose} onClick={e => { if (e.target === ref.current) onClose(); }}><div className="dialog-header"><h2>{title}</h2><button aria-label="Close dialog" onClick={onClose}>×</button></div>{children}</dialog>;
 }
 
-function SignIn({ onDemo }: { onDemo: () => void }) {
+function SignIn({ onDemo, onReset, onCreate }: { onDemo: () => void; onReset: () => void; onCreate: () => void }) {
   const [email, setEmail] = useState(''); const [password, setPassword] = useState(''); const [busy, setBusy] = useState(false); const [error, setError] = useState('');
   async function signIn(e: FormEvent) {
     e.preventDefault(); if (!supabase) return;
@@ -30,7 +31,7 @@ function SignIn({ onDemo }: { onDemo: () => void }) {
     try { const { error } = await supabase.auth.signInWithPassword({ email: email.trim(), password }); if (error) throw error; }
     catch (e) { setError(errorText(e)); } finally { setBusy(false); }
   }
-  return <main className="signin"><section className="signin-story"><a className="wordmark" href="#overview">Campify<span>·</span></a><div><h1>A clearer view <br />of camp.</h1><p>Your players. Your progress. <br />Your next great season.</p></div><span>Duke Baseball Camps</span></section><section className="signin-form"><img className="signin-ball" src="/figma/38-2-imgMascotCenter.svg" alt="Campify baseball" /><h2>Welcome back.</h2><p>Sign in to your camp dashboard.</p><form onSubmit={signIn}><label>Email / staff ID<input type="email" autoComplete="username" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@duke.edu" required disabled={!supabase} /></label><label>Password<input type="password" autoComplete="current-password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter your password" required disabled={!supabase} /></label>{error && <p role="alert" className="error">{error}</p>}<button className="primary" type="submit" disabled={!supabase || busy}>{busy ? 'Signing in…' : 'Sign in'}</button></form>{!supabase && <p className="inline-notice">Live sign-in will be available after a Supabase project is connected. You can explore the working demo now.</p>}<button className="secondary" onClick={onDemo}>Explore with demo data</button><small>Synthetic players only. Demo changes reset on reload.</small></section></main>;
+  return <main className="signin"><section className="signin-story"><a className="wordmark" href="#overview">Campify<span>·</span></a><div><h1>A clearer view <br />of camp.</h1><p>Your players. Your progress. <br />Your next great season.</p></div><span>Duke Baseball Camps</span></section><section className="signin-form"><img className="signin-ball" src="/figma/38-2-imgMascotCenter.svg" alt="Campify baseball" /><h2>Welcome back.</h2><p>Sign in to your camp dashboard.</p><form onSubmit={signIn}><label>Email / staff ID<input type="email" autoComplete="username" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@duke.edu" required disabled={!supabase} /></label><label>Password<input type="password" autoComplete="current-password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter your password" required disabled={!supabase} /></label>{error && <p role="alert" className="error">{error}</p>}<button className="primary" type="submit" disabled={!supabase || busy}>{busy ? 'Signing in…' : 'Sign in'}</button></form><button disabled={!supabase} onClick={onReset}>Forgot your password?</button><button disabled={!supabase} onClick={onCreate}>Create account</button><p className="muted">New accounts require administrator approval for camp access.</p>{!supabase && <p className="inline-notice">Live sign-in will be available after a Supabase project is connected. You can explore the working demo now.</p>}<button className="secondary" onClick={onDemo}>Explore with demo data</button><small>Synthetic players only. Demo changes reset on reload.</small></section></main>;
 }
 
 function ProfilePage({ profile, email, onSave, onSignOut }: { profile: Profile; email: string; onSave: (p: Profile) => Promise<void>; onSignOut: () => void }) {
@@ -93,6 +94,8 @@ function StatsTable({ stats, players = false }: { stats: ReturnType<typeof yearS
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null); const [demo, setDemo] = useState(false); const [authReady, setAuthReady] = useState(!supabase);
+  const [accountMode, setAccountMode] = useState(() => new URLSearchParams(window.location.search).get('account') === 'setup' || /(?:^|[&#])type=(invite|recovery)(?:&|$)/.test(window.location.hash) ? 'setup' : '');
+  const [canInvite,setCanInvite] = useState(false);
   const demoImportRows = useRef(new Map<string, string[]>());
   const [data, setData] = useState<Dataset>(emptyData); const [profile, setProfile] = useState<Profile>(defaultProfile); const [program, setProgram] = useState('');
   const currentYear = Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric' }).format(new Date()));
@@ -104,14 +107,14 @@ export default function App() {
     if (!supabase) return;
     let active = true;
     supabase.auth.getSession().then(({ data, error }) => { if (active) { if (error) setError(error.message); setUser(data.session?.user ?? null); setAuthReady(true); } });
-    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => { setUser(session?.user ?? null); setAuthReady(true); });
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => { if (_event === 'PASSWORD_RECOVERY') setAccountMode('setup'); setUser(session?.user ?? null); setAuthReady(true); });
     return () => { active = false; listener.subscription.unsubscribe(); };
   }, []);
   async function refresh() {
     if (demo) { setUpdated(new Date().toISOString()); return; }
     if (!user) return;
     setLoading(true); setError('');
-    try { const id = await loadProgram(); setProgram(id); const [next, saved] = await Promise.all([loadDataset(id), loadProfile(user.id)]); setData(next); setProfile(saved ?? { ...defaultProfile, display_name: user.email?.split('@')[0] ?? 'Coach' }); setUpdated(new Date().toISOString()); if (!saved) go('features'); }
+    try { const id = await loadProgram(); setProgram(id); const [next, saved] = await Promise.all([loadDataset(id), loadProfile(user.id)]); setData(next); setProfile(saved ?? { ...defaultProfile, display_name: user.email?.split('@')[0] ?? 'Coach' }); setUpdated(new Date().toISOString()); if (!saved && !accountMode) go('features'); const {data: admin}=await supabase!.from('program_admins').select('user_id').eq('program_id',id).eq('user_id',user.id).maybeSingle(); setCanInvite(!!admin); }
     catch (e) { setError(errorText(e)); } finally { setLoading(false); }
   }
   useEffect(() => { if (user && !demo) void refresh(); else if (!demo) { setData(emptyData); setProgram(''); } }, [user?.id, demo]);
@@ -158,7 +161,11 @@ export default function App() {
   }
   async function signOut() { try { if (!demo && supabase) { const { error } = await supabase.auth.signOut(); if (error) throw error; } setDemo(false); setUser(null); setData(emptyData); setProfile(defaultProfile); setError(''); go('overview'); } catch (e) { setError(errorText(e)); } }
   if (!authReady) return <div className="boot" role="status"><h1>Campify</h1><p>Checking your session…</p></div>;
-  if (!user && !demo) return <SignIn onDemo={() => { setDemo(true); setData(demoDataset()); setProfile(defaultProfile); setUpdated(new Date().toISOString()); go('features'); }} />;
+  const finishAccount = () => { const url = new URL(window.location.href); url.search = ''; url.hash = ''; window.history.replaceState(null, '', url); setAccountMode(''); go('overview'); };
+  if (accountMode === 'create') return <CreateAccount onBack={finishAccount} />;
+  if (accountMode === 'reset') return <PasswordRequest onBack={finishAccount} />;
+  if (accountMode === 'setup') return <PasswordSetup ready={!!user} onDone={finishAccount} />;
+  if (!user && !demo) return <SignIn onCreate={() => setAccountMode('create')} onReset={() => setAccountMode('reset')} onDemo={() => { setDemo(true); setData(demoDataset()); setProfile(defaultProfile); setUpdated(new Date().toISOString()); go('features'); }} />;
   return <div className="app"><header className="app-header"><a className="wordmark" href="#overview">Campify<span>·</span></a><span className="workspace-name">Duke Baseball Camps</span><nav aria-label="Main navigation"><a className={page === 'overview' ? 'active' : ''} href="#overview">Overview</a>{profile.features.map(key => <a key={key} className={page === key ? 'active' : ''} href={`#${key}`}>{labels[key]}</a>)}</nav><div className="header-actions"><a className="upload-link" href="#upload">Upload CSV</a><button className="avatar" aria-label="Open your profile" onClick={() => go('profile')}>{profile.display_name.slice(0, 1).toUpperCase()}</button></div></header>
     <div className="status-bar"><span>{demo ? 'Demo workspace · synthetic data · changes reset on reload' : 'Private workspace · Supabase connected'}</span><div><button className="text-button" onClick={() => go('features')}>Choose features</button><button className="text-button" disabled={loading} onClick={refresh}>{loading ? 'Refreshing…' : 'Refresh'}</button></div></div>
     <main className="main-content" id="main"><div className="page-tools">{page !== 'overview' ? <h1>{labels[page]}</h1> : <span className="scope-label">Your season, at a glance.</span>}{['overview', 'goals', 'players', 'demographics', 'enrollment'].includes(page) && <label className="year-picker">Camp year<select value={year} onChange={e => setYear(Number(e.target.value))}>{years.map(y => <option key={y}>{y}</option>)}</select></label>}</div>
@@ -168,6 +175,7 @@ export default function App() {
         {page === 'overview' && <Overview data={data} year={year} profile={profile} />}
         {['goals', 'players', 'demographics', 'enrollment'].includes(page) && <Analytics key={page} page={page} data={data} year={year} onGoal={persistGoal} />}
         {page === 'calendar' && <Calendar rows={data.enrollments} />}
+        {page === 'profile' && canInvite && !demo && <InviteStaff programId={program} />}
         {page === 'upload' && <Upload imports={data.imports} onImport={importFile} demo={demo} sampleCount={data.enrollments.filter(isSampleEnrollment).length} onClearSamples={clearSamples} />}
         {page === 'features' && <FeaturesPage profile={profile} onSave={persistProfile} />}
         {page === 'profile' && <ProfilePage profile={profile} email={demo ? 'mickey@example.test (demo)' : user?.email ?? ''} onSave={persistProfile} onSignOut={signOut} />}

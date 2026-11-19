@@ -11,6 +11,7 @@ beforeAll(async () => {
   await db.exec(`create role authenticated; create role anon; create schema auth; create table auth.users(id uuid primary key); create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid$$; grant usage on schema auth to authenticated; grant execute on function auth.uid() to authenticated;`);
   await db.exec(readFileSync(new URL('../supabase/migrations/202611190001_campify.sql', import.meta.url), 'utf8'));
   await db.exec(readFileSync(new URL('../supabase/migrations/202611190002_clear_sample_data.sql', import.meta.url), 'utf8'));
+  await db.exec(readFileSync(new URL('../supabase/migrations/202611190003_staff_invitations.sql', import.meta.url), 'utf8'));
   await db.exec(`insert into auth.users values ('${USER}'), ('${OTHER}'); insert into public.programs values ('${PROGRAM}', 'Test'); insert into public.program_members values ('${PROGRAM}', '${USER}'); set role authenticated; set request.jwt.claim.sub = '${USER}';`);
 }, 30000);
 afterAll(async () => { await db?.close(); });
@@ -71,5 +72,19 @@ describe('Sample cleanup', () => {
     expect((await db.query<{result:{removed:number}}>('select public.clear_sample_data($1) as result', [PROGRAM])).rows[0].result.removed).toBe(0);
     // Removed receipts allow importing the sample again.
     expect((await importData('b')).rows[0].result.duplicate).toBe(false);
+  });
+});
+
+describe('Invitation administrator permissions', () => {
+  it('does not let staff make themselves invitation administrators', async () => {
+    await expect(db.exec(`insert into program_admins values ('${PROGRAM}', '${USER}')`)).rejects.toThrow();
+    expect((await db.query('select * from program_admins')).rows).toHaveLength(0);
+  });
+  it('only reveals the caller’s own administrator membership', async () => {
+    await db.exec(`reset role; insert into program_admins values ('${PROGRAM}', '${USER}'); set role authenticated; set request.jwt.claim.sub = '${USER}'`);
+    expect((await db.query('select * from program_admins')).rows).toHaveLength(1);
+    await db.exec(`set request.jwt.claim.sub = '${OTHER}'`);
+    expect((await db.query('select * from program_admins')).rows).toHaveLength(0);
+    await db.exec(`set request.jwt.claim.sub = '${USER}'`);
   });
 });
