@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.taste-skill/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store

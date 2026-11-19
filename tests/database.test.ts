@@ -1,0 +1,47 @@
+import { PGlite } from '@electric-sql/pglite';
+import { readFileSync } from 'node:fs';
+import { beforeAll, afterAll, describe, expect, it } from 'vitest';
+import { demoDataset } from '../src/lib/demo';
+const USER = '11111111-1111-4111-8111-111111111111';
+const OTHER = '22222222-2222-4222-8222-222222222222';
+const PROGRAM = '33333333-3333-4333-8333-333333333333';
+let db: PGlite;
+beforeAll(async () => {
+  db = new PGlite();
+  await db.exec(`create role authenticated; create role anon; create schema auth; create table auth.users(id uuid primary key); create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid$$; grant usage on schema auth to authenticated; grant execute on function auth.uid() to authenticated;`);
+  await db.exec(readFileSync(new URL('../supabase/migrations/202611190001_campify.sql', import.meta.url), 'utf8'));
+  await db.exec(`insert into auth.users values ('${USER}'), ('${OTHER}'); insert into public.programs values ('${PROGRAM}', 'Test'); insert into public.program_members values ('${PROGRAM}', '${USER}'); set role authenticated; set request.jwt.claim.sub = '${USER}';`);
+}, 30000);
+afterAll(async () => { await db?.close(); });
+const importData = (hash: string, rows = demoDataset().enrollments.slice(0, 4)) => db.query<{ result: { duplicate: boolean; row_count: number } }>('select public.import_enrollments($1,$2,$3,$4::jsonb) as result', [PROGRAM, 'example.csv', hash.repeat(64), JSON.stringify(rows)]);
+describe('Supabase SQL security and atomic import', () => {
+  it('imports normalized records and makes exact-file repeats idempotent', async () => {
+    expect((await importData('a')).rows[0].result.row_count).toBe(4);
+    expect((await importData('a')).rows[0].result.duplicate).toBe(true);
+    expect((await db.query('select * from enrollment_details')).rows).toHaveLength(4);
+  });
+  it('updates a registration without counting it twice', async () => {
+    const rows = demoDataset().enrollments.slice(0, 4); rows[1].school = 'Changed school';
+    await importData('b', rows);
+    const result = await db.query<{ school: string }>('select school from enrollments where registration_id=$1', [rows[1].registration_id]);
+    expect(result.rows[0].school).toBe('Changed school');
+    expect((await db.query('select * from enrollments')).rows).toHaveLength(4);
+  });
+  it('rolls back all writes when a later row is invalid', async () => {
+    const rows = demoDataset().enrollments.slice(0, 4); rows[0].school = 'Must not persist'; rows[3].status = 'bad' as never;
+    await expect(importData('c', rows)).rejects.toThrow();
+    expect((await db.query<{ school: string }>('select school from enrollments where registration_id=$1', [rows[0].registration_id])).rows[0].school).not.toBe('Must not persist');
+    expect((await db.query('select * from imports')).rows).toHaveLength(2);
+  });
+  it('blocks direct writes and membership escalation', async () => {
+    await expect(db.exec(`insert into program_members values ('${PROGRAM}', '${OTHER}')`)).rejects.toThrow();
+    await expect(db.exec(`update enrollments set status='cancelled'`)).rejects.toThrow();
+  });
+  it('isolates members and denies unauthorized import', async () => {
+    await db.exec(`set request.jwt.claim.sub = '${OTHER}'`);
+    expect((await db.query('select * from enrollment_details')).rows).toHaveLength(0);
+    expect((await db.query('select * from imports')).rows).toHaveLength(0);
+    await expect(importData('d')).rejects.toThrow('Program membership required');
+    await db.exec(`set request.jwt.claim.sub = '${USER}'`);
+  });
+});

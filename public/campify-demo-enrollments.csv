@@ -1,0 +1,578 @@
+Registration ID,Participant ID,Participant Name,Camp ID,Camp Name,Camp Type,Start Date,End Date,Registration Date,School,District,Referral Source,Status,Amount Paid
+DEMO-2022-1,DEMO-P0,Alex Sample 1,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-01,Riverside High School,Durham,Duke outreach,cancelled,225.00
+DEMO-2022-2,DEMO-P1,Cameron Sample 2,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-02,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-3,DEMO-P2,Jordan Sample 3,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-03,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-4,DEMO-P3,Morgan Sample 4,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-04,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-5,DEMO-P4,Riley Sample 5,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-05,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-6,DEMO-P5,Sam Sample 6,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-06,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-7,DEMO-P6,Taylor Sample 7,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-07,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2022-8,DEMO-P7,Casey Sample 8,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-08,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-9,DEMO-P8,Alex Sample 9,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-09,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-10,DEMO-P9,Cameron Sample 10,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-10,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2022-11,DEMO-P10,Jordan Sample 11,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-11,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-12,DEMO-P11,Morgan Sample 12,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-12,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-13,DEMO-P12,Riley Sample 13,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-13,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-14,DEMO-P13,Sam Sample 14,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-14,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-15,DEMO-P14,Taylor Sample 15,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-15,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-16,DEMO-P15,Casey Sample 16,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-16,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-17,DEMO-P16,Alex Sample 17,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-17,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-18,DEMO-P17,Cameron Sample 18,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-18,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-19,DEMO-P18,Jordan Sample 19,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-19,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2022-20,DEMO-P19,Morgan Sample 20,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-20,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-21,DEMO-P20,Riley Sample 21,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-21,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-22,DEMO-P21,Sam Sample 22,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-22,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-23,DEMO-P22,Taylor Sample 23,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-23,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-24,DEMO-P23,Casey Sample 24,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-24,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,cancelled,300.00
+DEMO-2022-25,DEMO-P24,Alex Sample 25,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-25,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-26,DEMO-P25,Cameron Sample 26,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-26,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-27,DEMO-P26,Jordan Sample 27,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-27,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-28,DEMO-P27,Morgan Sample 28,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-01,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2022-29,DEMO-P28,Riley Sample 29,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-02,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-30,DEMO-P29,Sam Sample 30,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-03,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,waitlisted,300.00
+DEMO-2022-31,DEMO-P30,Taylor Sample 31,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-04,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-32,DEMO-P31,Casey Sample 32,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-05,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-33,DEMO-P32,Alex Sample 33,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-06,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-34,DEMO-P33,Cameron Sample 34,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-07,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-35,DEMO-P34,Jordan Sample 35,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-08,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-36,DEMO-P35,Morgan Sample 36,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-09,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-37,DEMO-P36,Riley Sample 37,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-10,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2022-38,DEMO-P37,Sam Sample 38,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-11,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-39,DEMO-P38,Taylor Sample 39,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-12,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-40,DEMO-P39,Casey Sample 40,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-13,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2022-41,DEMO-P40,Alex Sample 41,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-14,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-42,DEMO-P41,Cameron Sample 42,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-15,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-43,DEMO-P42,Jordan Sample 43,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-16,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-44,DEMO-P43,Morgan Sample 44,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-17,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-45,DEMO-P44,Riley Sample 45,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-18,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-46,DEMO-P45,Sam Sample 46,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-19,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-47,DEMO-P46,Taylor Sample 47,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-20,Northern High School,Durham,Play’n Sports,cancelled,175.00
+DEMO-2022-48,DEMO-P47,Casey Sample 48,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-21,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-49,DEMO-P48,Alex Sample 49,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-22,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2022-50,DEMO-P49,Cameron Sample 50,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-23,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-51,DEMO-P50,Jordan Sample 51,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-24,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-52,DEMO-P51,Morgan Sample 52,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-25,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-53,DEMO-P52,Riley Sample 53,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-26,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-54,DEMO-P53,Sam Sample 54,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-27,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-55,DEMO-P54,Taylor Sample 55,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-01,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-56,DEMO-P55,Casey Sample 56,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-02,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-57,DEMO-P56,Alex Sample 57,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-03,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-58,DEMO-P57,Cameron Sample 58,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-04,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2022-59,DEMO-P58,Jordan Sample 59,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-05,Northern High School,Durham,Play’n Sports,waitlisted,175.00
+DEMO-2022-60,DEMO-P59,Morgan Sample 60,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-06,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-61,DEMO-P60,Riley Sample 61,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-07,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-62,DEMO-P61,Sam Sample 62,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-08,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-63,DEMO-P62,Taylor Sample 63,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-09,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-64,DEMO-P63,Casey Sample 64,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-10,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-65,DEMO-P64,Alex Sample 65,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-11,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-66,DEMO-P65,Cameron Sample 66,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-12,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-67,DEMO-P66,Jordan Sample 67,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-13,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2022-68,DEMO-P67,Morgan Sample 68,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-14,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-69,DEMO-P68,Riley Sample 69,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-15,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-70,DEMO-P69,Sam Sample 70,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-16,Cary High School,Wake,Word of mouth,cancelled,225.00
+DEMO-2022-71,DEMO-P70,Taylor Sample 71,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-17,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-72,DEMO-P71,Casey Sample 72,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-18,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-73,DEMO-P72,Alex Sample 73,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-19,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2022-74,DEMO-P73,Cameron Sample 74,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-20,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-75,DEMO-P74,Jordan Sample 75,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-21,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-76,DEMO-P75,Morgan Sample 76,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-22,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-77,DEMO-P76,Riley Sample 77,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-23,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-78,DEMO-P77,Sam Sample 78,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-24,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2022-79,DEMO-P78,Taylor Sample 79,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-25,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2022-80,DEMO-P79,Casey Sample 80,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-26,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2022-81,DEMO-P80,Alex Sample 81,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-27,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2022-82,DEMO-P81,Cameron Sample 82,DEMO-C2022-0,Summer Skills Camp,Skills,2022-06-15,2022-06-18,2022-04-01,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2022-83,DEMO-P82,Jordan Sample 83,DEMO-C2022-1,Youth Development Camp,Youth,2022-07-12,2022-07-15,2022-04-02,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2022-84,DEMO-P83,Morgan Sample 84,DEMO-C2022-2,Fall Prospect Camp,Prospect,2022-11-21,2022-11-22,2022-04-03,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2023-1,DEMO-P23,Casey Sample 24,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-01,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,cancelled,225.00
+DEMO-2023-2,DEMO-P24,Alex Sample 25,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-02,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-3,DEMO-P25,Cameron Sample 26,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-03,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-4,DEMO-P26,Jordan Sample 27,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-04,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-5,DEMO-P27,Morgan Sample 28,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-05,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-6,DEMO-P28,Riley Sample 29,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-06,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-7,DEMO-P29,Sam Sample 30,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-07,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-8,DEMO-P30,Taylor Sample 31,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-08,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-9,DEMO-P31,Casey Sample 32,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-09,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-10,DEMO-P32,Alex Sample 33,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-10,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-11,DEMO-P33,Cameron Sample 34,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-11,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-12,DEMO-P34,Jordan Sample 35,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-12,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-13,DEMO-P35,Morgan Sample 36,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-13,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-14,DEMO-P36,Riley Sample 37,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-14,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-15,DEMO-P37,Sam Sample 38,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-15,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-16,DEMO-P38,Taylor Sample 39,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-16,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-17,DEMO-P39,Casey Sample 40,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-17,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2023-18,DEMO-P40,Alex Sample 41,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-18,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-19,DEMO-P41,Cameron Sample 42,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-19,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-20,DEMO-P42,Jordan Sample 43,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-20,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-21,DEMO-P43,Morgan Sample 44,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-21,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-22,DEMO-P44,Riley Sample 45,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-22,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-23,DEMO-P45,Sam Sample 46,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-23,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-24,DEMO-P46,Taylor Sample 47,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-24,Northern High School,Durham,Duke outreach,cancelled,300.00
+DEMO-2023-25,DEMO-P47,Casey Sample 48,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-25,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-26,DEMO-P48,Alex Sample 49,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-26,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-27,DEMO-P49,Cameron Sample 50,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-27,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-28,DEMO-P50,Jordan Sample 51,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-01,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-29,DEMO-P51,Morgan Sample 52,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-02,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2023-30,DEMO-P52,Riley Sample 53,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-03,Northern High School,Durham,Unknown,waitlisted,300.00
+DEMO-2023-31,DEMO-P53,Sam Sample 54,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-04,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-32,DEMO-P54,Taylor Sample 55,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-05,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-33,DEMO-P55,Casey Sample 56,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-06,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-34,DEMO-P56,Alex Sample 57,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-07,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-35,DEMO-P57,Cameron Sample 58,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-08,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-36,DEMO-P58,Jordan Sample 59,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-09,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-37,DEMO-P59,Morgan Sample 60,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-10,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-38,DEMO-P60,Riley Sample 61,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-11,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-39,DEMO-P61,Sam Sample 62,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-12,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-40,DEMO-P62,Taylor Sample 63,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-13,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-41,DEMO-P63,Casey Sample 64,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-14,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-42,DEMO-P64,Alex Sample 65,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-15,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-43,DEMO-P65,Cameron Sample 66,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-16,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-44,DEMO-P66,Jordan Sample 67,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-17,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-45,DEMO-P67,Morgan Sample 68,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-18,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-46,DEMO-P68,Riley Sample 69,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-19,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-47,DEMO-P69,Sam Sample 70,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-20,Cary High School,Wake,Play’n Sports,cancelled,175.00
+DEMO-2023-48,DEMO-P70,Taylor Sample 71,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-21,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-49,DEMO-P71,Casey Sample 72,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-22,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-50,DEMO-P72,Alex Sample 73,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-23,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-51,DEMO-P73,Cameron Sample 74,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-24,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-52,DEMO-P74,Jordan Sample 75,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-25,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-53,DEMO-P75,Morgan Sample 76,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-26,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-54,DEMO-P76,Riley Sample 77,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-27,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-55,DEMO-P77,Sam Sample 78,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-01,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-56,DEMO-P78,Taylor Sample 79,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-02,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-57,DEMO-P79,Casey Sample 80,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-03,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-58,DEMO-P80,Alex Sample 81,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-04,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-59,DEMO-P81,Cameron Sample 82,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-05,Cary High School,Wake,Play’n Sports,waitlisted,175.00
+DEMO-2023-60,DEMO-P82,Jordan Sample 83,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-06,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-61,DEMO-P83,Morgan Sample 84,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-07,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-62,DEMO-P84,Riley Sample 85,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-08,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-63,DEMO-P85,Sam Sample 86,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-09,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-64,DEMO-P86,Taylor Sample 87,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-10,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-65,DEMO-P87,Casey Sample 88,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-11,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-66,DEMO-P88,Alex Sample 89,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-12,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-67,DEMO-P89,Cameron Sample 90,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-13,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-68,DEMO-P90,Jordan Sample 91,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-14,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-69,DEMO-P91,Morgan Sample 92,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-15,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-70,DEMO-P92,Riley Sample 93,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-16,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,cancelled,225.00
+DEMO-2023-71,DEMO-P93,Sam Sample 94,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-17,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-72,DEMO-P94,Taylor Sample 95,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-18,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-73,DEMO-P95,Casey Sample 96,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-19,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-74,DEMO-P96,Alex Sample 97,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-20,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-75,DEMO-P97,Cameron Sample 98,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-21,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-76,DEMO-P98,Jordan Sample 99,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-22,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-77,DEMO-P99,Morgan Sample 100,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-23,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2023-78,DEMO-P100,Riley Sample 101,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-24,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-79,DEMO-P101,Sam Sample 102,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-25,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-80,DEMO-P102,Taylor Sample 103,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-26,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-81,DEMO-P103,Casey Sample 104,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-27,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-82,DEMO-P104,Alex Sample 105,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-01,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-83,DEMO-P105,Cameron Sample 106,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-02,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-84,DEMO-P106,Jordan Sample 107,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-03,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-85,DEMO-P107,Morgan Sample 108,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-04,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-86,DEMO-P108,Riley Sample 109,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-05,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-87,DEMO-P109,Sam Sample 110,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-06,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-88,DEMO-P110,Taylor Sample 111,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-07,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,waitlisted,225.00
+DEMO-2023-89,DEMO-P111,Casey Sample 112,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-08,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2023-90,DEMO-P112,Alex Sample 113,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-09,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-91,DEMO-P113,Cameron Sample 114,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-10,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-92,DEMO-P114,Jordan Sample 115,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-11,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-93,DEMO-P115,Morgan Sample 116,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-12,Jordan High School,Durham,Duke outreach,cancelled,300.00
+DEMO-2023-94,DEMO-P116,Riley Sample 117,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-13,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-95,DEMO-P117,Sam Sample 118,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-14,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-96,DEMO-P118,Taylor Sample 119,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-15,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-97,DEMO-P119,Casey Sample 120,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-16,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-98,DEMO-P120,Alex Sample 121,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-17,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2023-99,DEMO-P121,Cameron Sample 122,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-18,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-100,DEMO-P122,Jordan Sample 123,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-19,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2023-101,DEMO-P123,Morgan Sample 124,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-20,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2023-102,DEMO-P124,Riley Sample 125,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-21,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-103,DEMO-P125,Sam Sample 126,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-22,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-104,DEMO-P126,Taylor Sample 127,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-23,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2023-105,DEMO-P127,Casey Sample 128,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-24,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2023-106,DEMO-P128,Alex Sample 129,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-25,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2023-107,DEMO-P129,Cameron Sample 130,DEMO-C2023-1,Youth Development Camp,Youth,2023-07-12,2023-07-15,2023-04-26,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2023-108,DEMO-P130,Jordan Sample 131,DEMO-C2023-2,Fall Prospect Camp,Prospect,2023-11-21,2023-11-22,2023-04-27,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2023-109,DEMO-P131,Morgan Sample 132,DEMO-C2023-0,Summer Skills Camp,Skills,2023-06-15,2023-06-18,2023-04-01,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2024-1,DEMO-P46,Taylor Sample 47,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-01,Northern High School,Durham,Duke outreach,cancelled,225.00
+DEMO-2024-2,DEMO-P47,Casey Sample 48,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-02,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-3,DEMO-P48,Alex Sample 49,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-03,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-4,DEMO-P49,Cameron Sample 50,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-04,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-5,DEMO-P50,Jordan Sample 51,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-05,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-6,DEMO-P51,Morgan Sample 52,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-06,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-7,DEMO-P52,Riley Sample 53,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-07,Northern High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-8,DEMO-P53,Sam Sample 54,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-08,East Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-9,DEMO-P54,Taylor Sample 55,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-09,Riverside High School,Durham,Unknown,confirmed,300.00
+DEMO-2024-10,DEMO-P55,Casey Sample 56,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-10,Jordan High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-11,DEMO-P56,Alex Sample 57,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-11,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-12,DEMO-P57,Cameron Sample 58,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-12,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-13,DEMO-P58,Jordan Sample 59,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-13,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-14,DEMO-P59,Morgan Sample 60,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-14,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-15,DEMO-P60,Riley Sample 61,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-15,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-16,DEMO-P61,Sam Sample 62,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-16,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-17,DEMO-P62,Taylor Sample 63,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-17,Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-18,DEMO-P63,Casey Sample 64,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-18,Cary High School,Wake,Unknown,confirmed,300.00
+DEMO-2024-19,DEMO-P64,Alex Sample 65,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-19,Northern High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-20,DEMO-P65,Cameron Sample 66,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-20,East Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-21,DEMO-P66,Jordan Sample 67,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-21,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-22,DEMO-P67,Morgan Sample 68,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-22,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-23,DEMO-P68,Riley Sample 69,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-23,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-24,DEMO-P69,Sam Sample 70,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-24,Cary High School,Wake,Duke outreach,cancelled,300.00
+DEMO-2024-25,DEMO-P70,Taylor Sample 71,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-25,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-26,DEMO-P71,Casey Sample 72,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-26,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-27,DEMO-P72,Alex Sample 73,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-27,Riverside High School,Durham,Unknown,confirmed,300.00
+DEMO-2024-28,DEMO-P73,Cameron Sample 74,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-01,Jordan High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-29,DEMO-P74,Jordan Sample 75,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-02,Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-30,DEMO-P75,Morgan Sample 76,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-03,Cary High School,Wake,Unknown,waitlisted,300.00
+DEMO-2024-31,DEMO-P76,Riley Sample 77,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-04,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-32,DEMO-P77,Sam Sample 78,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-05,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-33,DEMO-P78,Taylor Sample 79,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-06,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-34,DEMO-P79,Casey Sample 80,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-07,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-35,DEMO-P80,Alex Sample 81,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-08,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-36,DEMO-P81,Cameron Sample 82,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-09,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-37,DEMO-P82,Jordan Sample 83,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-10,Northern High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-38,DEMO-P83,Morgan Sample 84,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-11,East Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-39,DEMO-P84,Riley Sample 85,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-12,Riverside High School,Durham,Unknown,confirmed,300.00
+DEMO-2024-40,DEMO-P85,Sam Sample 86,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-13,Jordan High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-41,DEMO-P86,Taylor Sample 87,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-14,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-42,DEMO-P87,Casey Sample 88,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-15,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-43,DEMO-P88,Alex Sample 89,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-16,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-44,DEMO-P89,Cameron Sample 90,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-17,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-45,DEMO-P90,Jordan Sample 91,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-18,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-46,DEMO-P91,Morgan Sample 92,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-19,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-47,DEMO-P92,Riley Sample 93,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-20,Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,cancelled,175.00
+DEMO-2024-48,DEMO-P93,Sam Sample 94,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-21,Cary High School,Wake,Unknown,confirmed,300.00
+DEMO-2024-49,DEMO-P94,Taylor Sample 95,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-22,Northern High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-50,DEMO-P95,Casey Sample 96,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-23,East Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-51,DEMO-P96,Alex Sample 97,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-24,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-52,DEMO-P97,Cameron Sample 98,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-25,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-53,DEMO-P98,Jordan Sample 99,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-26,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-54,DEMO-P99,Morgan Sample 100,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-27,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-55,DEMO-P100,Riley Sample 101,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-01,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-56,DEMO-P101,Sam Sample 102,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-02,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-57,DEMO-P102,Taylor Sample 103,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-03,Riverside High School,Durham,Unknown,confirmed,300.00
+DEMO-2024-58,DEMO-P103,Casey Sample 104,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-04,Jordan High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-59,DEMO-P104,Alex Sample 105,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-05,Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,waitlisted,175.00
+DEMO-2024-60,DEMO-P105,Cameron Sample 106,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-06,Cary High School,Wake,Unknown,confirmed,300.00
+DEMO-2024-61,DEMO-P106,Jordan Sample 107,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-07,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-62,DEMO-P107,Morgan Sample 108,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-08,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-63,DEMO-P108,Riley Sample 109,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-09,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-64,DEMO-P109,Sam Sample 110,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-10,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-65,DEMO-P110,Taylor Sample 111,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-11,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-66,DEMO-P111,Casey Sample 112,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-12,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-67,DEMO-P112,Alex Sample 113,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-13,Northern High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-68,DEMO-P113,Cameron Sample 114,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-14,East Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-69,DEMO-P114,Jordan Sample 115,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-15,Riverside High School,Durham,Unknown,confirmed,300.00
+DEMO-2024-70,DEMO-P115,Morgan Sample 116,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-16,Jordan High School,Durham,Word of mouth,cancelled,225.00
+DEMO-2024-71,DEMO-P116,Riley Sample 117,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-17,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-72,DEMO-P117,Sam Sample 118,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-18,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-73,DEMO-P118,Taylor Sample 119,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-19,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-74,DEMO-P119,Casey Sample 120,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-20,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-75,DEMO-P120,Alex Sample 121,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-21,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-76,DEMO-P121,Cameron Sample 122,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-22,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-77,DEMO-P122,Jordan Sample 123,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-23,Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-78,DEMO-P123,Morgan Sample 124,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-24,Cary High School,Wake,Unknown,confirmed,300.00
+DEMO-2024-79,DEMO-P124,Riley Sample 125,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-25,Northern High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2024-80,DEMO-P125,Sam Sample 126,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-26,East Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-81,DEMO-P126,Taylor Sample 127,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-27,Riverside High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2024-82,DEMO-P127,Casey Sample 128,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-01,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-83,DEMO-P128,Alex Sample 129,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-02,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-84,DEMO-P129,Cameron Sample 130,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-03,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2024-85,DEMO-P130,Jordan Sample 131,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-04,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-86,DEMO-P131,Morgan Sample 132,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-05,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-87,DEMO-P132,Riley Sample 133,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-06,Riverside High School,Durham,Unknown,confirmed,300.00
+DEMO-2024-88,DEMO-P133,Sam Sample 134,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-07,Jordan High School,Durham,Word of mouth,waitlisted,225.00
+DEMO-2024-89,DEMO-P134,Taylor Sample 135,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-08,Chapel Hill High School,Chapel Hill–Carrboro,Play’n Sports,confirmed,175.00
+DEMO-2024-90,DEMO-P135,Casey Sample 136,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-09,Cary High School,Wake,Unknown,confirmed,300.00
+DEMO-2024-91,DEMO-P136,Alex Sample 137,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-10,Northern High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-92,DEMO-P137,Cameron Sample 138,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-11,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-93,DEMO-P138,Jordan Sample 139,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-12,Riverside High School,Durham,Duke outreach,cancelled,300.00
+DEMO-2024-94,DEMO-P139,Morgan Sample 140,DEMO-C2024-0,Summer Skills Camp,Skills,2024-06-15,2024-06-18,2024-04-13,Jordan High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2024-95,DEMO-P140,Riley Sample 141,DEMO-C2024-1,Youth Development Camp,Youth,2024-07-12,2024-07-15,2024-04-14,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,175.00
+DEMO-2024-96,DEMO-P141,Sam Sample 142,DEMO-C2024-2,Fall Prospect Camp,Prospect,2024-11-21,2024-11-22,2024-04-15,Cary High School,Wake,Duke outreach,confirmed,300.00
+DEMO-2025-1,DEMO-P69,Sam Sample 70,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-01,Cary High School,Wake,Duke outreach,cancelled,225.00
+DEMO-2025-2,DEMO-P70,Taylor Sample 71,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-02,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-3,DEMO-P71,Casey Sample 72,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-03,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-4,DEMO-P72,Alex Sample 73,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-04,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-5,DEMO-P73,Cameron Sample 74,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-05,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-6,DEMO-P74,Jordan Sample 75,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-06,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-7,DEMO-P75,Morgan Sample 76,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-07,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-8,DEMO-P76,Riley Sample 77,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-08,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-9,DEMO-P77,Sam Sample 78,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-09,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-10,DEMO-P78,Taylor Sample 79,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-10,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-11,DEMO-P79,Casey Sample 80,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-11,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-12,DEMO-P80,Alex Sample 81,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-12,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-13,DEMO-P81,Cameron Sample 82,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-13,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-14,DEMO-P82,Jordan Sample 83,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-14,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-15,DEMO-P83,Morgan Sample 84,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-15,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-16,DEMO-P84,Riley Sample 85,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-16,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-17,DEMO-P85,Sam Sample 86,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-17,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-18,DEMO-P86,Taylor Sample 87,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-18,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-19,DEMO-P87,Casey Sample 88,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-19,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-20,DEMO-P88,Alex Sample 89,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-20,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-21,DEMO-P89,Cameron Sample 90,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-21,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-22,DEMO-P90,Jordan Sample 91,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-22,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-23,DEMO-P91,Morgan Sample 92,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-23,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-24,DEMO-P92,Riley Sample 93,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-24,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,cancelled,300.00
+DEMO-2025-25,DEMO-P93,Sam Sample 94,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-25,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-26,DEMO-P94,Taylor Sample 95,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-26,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-27,DEMO-P95,Casey Sample 96,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-27,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-28,DEMO-P96,Alex Sample 97,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-01,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-29,DEMO-P97,Cameron Sample 98,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-02,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-30,DEMO-P98,Jordan Sample 99,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-03,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,waitlisted,300.00
+DEMO-2025-31,DEMO-P99,Morgan Sample 100,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-04,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-32,DEMO-P100,Riley Sample 101,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-05,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-33,DEMO-P101,Sam Sample 102,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-06,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-34,DEMO-P102,Taylor Sample 103,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-07,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-35,DEMO-P103,Casey Sample 104,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-08,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-36,DEMO-P104,Alex Sample 105,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-09,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-37,DEMO-P105,Cameron Sample 106,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-10,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-38,DEMO-P106,Jordan Sample 107,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-11,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-39,DEMO-P107,Morgan Sample 108,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-12,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-40,DEMO-P108,Riley Sample 109,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-13,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-41,DEMO-P109,Sam Sample 110,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-14,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-42,DEMO-P110,Taylor Sample 111,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-15,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-43,DEMO-P111,Casey Sample 112,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-16,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-44,DEMO-P112,Alex Sample 113,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-17,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-45,DEMO-P113,Cameron Sample 114,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-18,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-46,DEMO-P114,Jordan Sample 115,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-19,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-47,DEMO-P115,Morgan Sample 116,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-20,Jordan High School,Durham,Play’n Sports,cancelled,175.00
+DEMO-2025-48,DEMO-P116,Riley Sample 117,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-21,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-49,DEMO-P117,Sam Sample 118,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-22,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-50,DEMO-P118,Taylor Sample 119,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-23,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-51,DEMO-P119,Casey Sample 120,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-24,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-52,DEMO-P120,Alex Sample 121,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-25,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-53,DEMO-P121,Cameron Sample 122,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-26,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-54,DEMO-P122,Jordan Sample 123,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-27,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-55,DEMO-P123,Morgan Sample 124,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-01,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-56,DEMO-P124,Riley Sample 125,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-02,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-57,DEMO-P125,Sam Sample 126,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-03,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-58,DEMO-P126,Taylor Sample 127,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-04,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-59,DEMO-P127,Casey Sample 128,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-05,Jordan High School,Durham,Play’n Sports,waitlisted,175.00
+DEMO-2025-60,DEMO-P128,Alex Sample 129,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-06,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-61,DEMO-P129,Cameron Sample 130,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-07,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-62,DEMO-P130,Jordan Sample 131,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-08,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-63,DEMO-P131,Morgan Sample 132,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-09,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-64,DEMO-P132,Riley Sample 133,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-10,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-65,DEMO-P133,Sam Sample 134,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-11,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-66,DEMO-P134,Taylor Sample 135,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-12,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-67,DEMO-P135,Casey Sample 136,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-13,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-68,DEMO-P136,Alex Sample 137,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-14,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-69,DEMO-P137,Cameron Sample 138,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-15,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-70,DEMO-P138,Jordan Sample 139,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-16,Riverside High School,Durham,Word of mouth,cancelled,225.00
+DEMO-2025-71,DEMO-P139,Morgan Sample 140,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-17,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-72,DEMO-P140,Riley Sample 141,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-18,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-73,DEMO-P141,Sam Sample 142,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-19,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-74,DEMO-P142,Taylor Sample 143,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-20,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-75,DEMO-P143,Casey Sample 144,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-21,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-76,DEMO-P144,Alex Sample 145,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-22,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-77,DEMO-P145,Cameron Sample 146,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-23,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-78,DEMO-P146,Jordan Sample 147,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-24,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-79,DEMO-P147,Morgan Sample 148,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-25,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-80,DEMO-P148,Riley Sample 149,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-26,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-81,DEMO-P149,Sam Sample 150,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-27,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-82,DEMO-P150,Taylor Sample 151,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-01,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-83,DEMO-P151,Casey Sample 152,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-02,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-84,DEMO-P152,Alex Sample 153,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-03,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-85,DEMO-P153,Cameron Sample 154,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-04,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-86,DEMO-P154,Jordan Sample 155,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-05,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-87,DEMO-P155,Morgan Sample 156,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-06,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-88,DEMO-P156,Riley Sample 157,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-07,Riverside High School,Durham,Word of mouth,waitlisted,225.00
+DEMO-2025-89,DEMO-P157,Sam Sample 158,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-08,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-90,DEMO-P158,Taylor Sample 159,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-09,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-91,DEMO-P159,Casey Sample 160,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-10,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-92,DEMO-P160,Alex Sample 161,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-11,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-93,DEMO-P161,Cameron Sample 162,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-12,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,cancelled,300.00
+DEMO-2025-94,DEMO-P162,Jordan Sample 163,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-13,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-95,DEMO-P163,Morgan Sample 164,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-14,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-96,DEMO-P164,Riley Sample 165,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-15,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-97,DEMO-P165,Sam Sample 166,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-16,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-98,DEMO-P166,Taylor Sample 167,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-17,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-99,DEMO-P167,Casey Sample 168,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-18,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-100,DEMO-P168,Alex Sample 169,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-19,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-101,DEMO-P169,Cameron Sample 170,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-20,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-102,DEMO-P170,Jordan Sample 171,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-21,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-103,DEMO-P171,Morgan Sample 172,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-22,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-104,DEMO-P172,Riley Sample 173,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-23,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-105,DEMO-P173,Sam Sample 174,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-24,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-106,DEMO-P174,Taylor Sample 175,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-25,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-107,DEMO-P175,Casey Sample 176,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-26,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-108,DEMO-P176,Alex Sample 177,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-27,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-109,DEMO-P177,Cameron Sample 178,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-01,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-110,DEMO-P178,Jordan Sample 179,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-02,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-111,DEMO-P179,Morgan Sample 180,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-03,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-112,DEMO-P180,Riley Sample 181,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-04,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-113,DEMO-P181,Sam Sample 182,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-05,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-114,DEMO-P182,Taylor Sample 183,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-06,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-115,DEMO-P183,Casey Sample 184,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-07,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-116,DEMO-P184,Alex Sample 185,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-08,Northern High School,Durham,Duke outreach,cancelled,175.00
+DEMO-2025-117,DEMO-P185,Cameron Sample 186,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-09,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,waitlisted,300.00
+DEMO-2025-118,DEMO-P186,Jordan Sample 187,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-10,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-119,DEMO-P187,Morgan Sample 188,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-11,Jordan High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-120,DEMO-P188,Riley Sample 189,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-12,Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-121,DEMO-P189,Sam Sample 190,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-13,Cary High School,Wake,Duke outreach,confirmed,225.00
+DEMO-2025-122,DEMO-P190,Taylor Sample 191,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-14,Northern High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-123,DEMO-P191,Casey Sample 192,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-15,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-124,DEMO-P192,Alex Sample 193,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-16,Riverside High School,Durham,Duke outreach,confirmed,225.00
+DEMO-2025-125,DEMO-P193,Cameron Sample 194,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-17,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-126,DEMO-P194,Jordan Sample 195,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-18,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2025-127,DEMO-P195,Morgan Sample 196,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-19,Cary High School,Wake,Word of mouth,confirmed,225.00
+DEMO-2025-128,DEMO-P196,Riley Sample 197,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-20,Northern High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2025-129,DEMO-P197,Sam Sample 198,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-21,East Chapel Hill High School,Chapel Hill–Carrboro,Unknown,confirmed,300.00
+DEMO-2025-130,DEMO-P198,Taylor Sample 199,DEMO-C2025-0,Summer Skills Camp,Skills,2025-06-15,2025-06-18,2025-04-22,Riverside High School,Durham,Word of mouth,confirmed,225.00
+DEMO-2025-131,DEMO-P199,Casey Sample 200,DEMO-C2025-1,Youth Development Camp,Youth,2025-07-12,2025-07-15,2025-04-23,Jordan High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2025-132,DEMO-P200,Alex Sample 201,DEMO-C2025-2,Fall Prospect Camp,Prospect,2025-11-21,2025-11-22,2025-04-24,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,300.00
+DEMO-2026-1,DEMO-P92,Riley Sample 93,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-01,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,cancelled,225.00
+DEMO-2026-2,DEMO-P93,Sam Sample 94,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-02,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-3,DEMO-P94,Taylor Sample 95,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-03,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-4,DEMO-P95,Casey Sample 96,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-04,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-5,DEMO-P96,Alex Sample 97,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-05,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-6,DEMO-P97,Cameron Sample 98,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-06,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-7,DEMO-P98,Jordan Sample 99,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-07,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-8,DEMO-P99,Morgan Sample 100,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-08,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-9,DEMO-P100,Riley Sample 101,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-09,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-10,DEMO-P101,Sam Sample 102,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-10,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-11,DEMO-P102,Taylor Sample 103,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-11,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-12,DEMO-P103,Casey Sample 104,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-12,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-13,DEMO-P104,Alex Sample 105,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-13,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-14,DEMO-P105,Cameron Sample 106,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-14,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-15,DEMO-P106,Jordan Sample 107,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-15,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-16,DEMO-P107,Morgan Sample 108,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-16,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-17,DEMO-P108,Riley Sample 109,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-17,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-18,DEMO-P109,Sam Sample 110,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-18,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-19,DEMO-P110,Taylor Sample 111,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-19,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-20,DEMO-P111,Casey Sample 112,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-20,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-21,DEMO-P112,Alex Sample 113,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-21,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-22,DEMO-P113,Cameron Sample 114,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-22,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-23,DEMO-P114,Jordan Sample 115,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-23,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-24,DEMO-P115,Morgan Sample 116,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-24,Jordan High School,Durham,Duke outreach,cancelled,300.00
+DEMO-2026-25,DEMO-P116,Riley Sample 117,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-25,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-26,DEMO-P117,Sam Sample 118,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-26,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-27,DEMO-P118,Taylor Sample 119,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-27,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-28,DEMO-P119,Casey Sample 120,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-01,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-29,DEMO-P120,Alex Sample 121,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-02,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-30,DEMO-P121,Cameron Sample 122,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-03,Jordan High School,Durham,Unknown,waitlisted,300.00
+DEMO-2026-31,DEMO-P122,Jordan Sample 123,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-04,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-32,DEMO-P123,Morgan Sample 124,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-05,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-33,DEMO-P124,Riley Sample 125,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-06,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-34,DEMO-P125,Sam Sample 126,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-07,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-35,DEMO-P126,Taylor Sample 127,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-08,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-36,DEMO-P127,Casey Sample 128,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-09,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-37,DEMO-P128,Alex Sample 129,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-10,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-38,DEMO-P129,Cameron Sample 130,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-11,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-39,DEMO-P130,Jordan Sample 131,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-12,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-40,DEMO-P131,Morgan Sample 132,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-13,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-41,DEMO-P132,Riley Sample 133,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-14,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-42,DEMO-P133,Sam Sample 134,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-15,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-43,DEMO-P134,Taylor Sample 135,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-16,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-44,DEMO-P135,Casey Sample 136,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-17,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-45,DEMO-P136,Alex Sample 137,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-18,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-46,DEMO-P137,Cameron Sample 138,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-19,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-47,DEMO-P138,Jordan Sample 139,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-20,Riverside High School,Durham,Play’n Sports,cancelled,175.00
+DEMO-2026-48,DEMO-P139,Morgan Sample 140,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-21,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-49,DEMO-P140,Riley Sample 141,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-22,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-50,DEMO-P141,Sam Sample 142,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-23,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-51,DEMO-P142,Taylor Sample 143,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-24,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-52,DEMO-P143,Casey Sample 144,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-25,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-53,DEMO-P144,Alex Sample 145,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-26,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-54,DEMO-P145,Cameron Sample 146,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-27,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-55,DEMO-P146,Jordan Sample 147,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-01,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-56,DEMO-P147,Morgan Sample 148,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-02,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-57,DEMO-P148,Riley Sample 149,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-03,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-58,DEMO-P149,Sam Sample 150,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-04,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-59,DEMO-P150,Taylor Sample 151,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-05,Riverside High School,Durham,Play’n Sports,waitlisted,175.00
+DEMO-2026-60,DEMO-P151,Casey Sample 152,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-06,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-61,DEMO-P152,Alex Sample 153,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-07,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-62,DEMO-P153,Cameron Sample 154,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-08,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-63,DEMO-P154,Jordan Sample 155,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-09,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-64,DEMO-P155,Morgan Sample 156,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-10,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-65,DEMO-P156,Riley Sample 157,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-11,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-66,DEMO-P157,Sam Sample 158,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-12,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-67,DEMO-P158,Taylor Sample 159,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-13,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-68,DEMO-P159,Casey Sample 160,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-14,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-69,DEMO-P160,Alex Sample 161,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-15,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-70,DEMO-P161,Cameron Sample 162,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-16,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,cancelled,225.00
+DEMO-2026-71,DEMO-P162,Jordan Sample 163,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-17,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-72,DEMO-P163,Morgan Sample 164,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-18,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-73,DEMO-P164,Riley Sample 165,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-19,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-74,DEMO-P165,Sam Sample 166,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-20,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-75,DEMO-P166,Taylor Sample 167,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-21,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-76,DEMO-P167,Casey Sample 168,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-22,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-77,DEMO-P168,Alex Sample 169,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-23,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-78,DEMO-P169,Cameron Sample 170,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-24,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-79,DEMO-P170,Jordan Sample 171,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-25,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-80,DEMO-P171,Morgan Sample 172,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-26,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-81,DEMO-P172,Riley Sample 173,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-27,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-82,DEMO-P173,Sam Sample 174,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-01,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-83,DEMO-P174,Taylor Sample 175,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-02,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-84,DEMO-P175,Casey Sample 176,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-03,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-85,DEMO-P176,Alex Sample 177,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-04,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-86,DEMO-P177,Cameron Sample 178,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-05,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-87,DEMO-P178,Jordan Sample 179,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-06,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-88,DEMO-P179,Morgan Sample 180,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-07,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,waitlisted,225.00
+DEMO-2026-89,DEMO-P180,Riley Sample 181,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-08,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-90,DEMO-P181,Sam Sample 182,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-09,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-91,DEMO-P182,Taylor Sample 183,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-10,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-92,DEMO-P183,Casey Sample 184,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-11,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-93,DEMO-P184,Alex Sample 185,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-12,Northern High School,Durham,Duke outreach,cancelled,300.00
+DEMO-2026-94,DEMO-P185,Cameron Sample 186,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-13,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-95,DEMO-P186,Jordan Sample 187,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-14,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-96,DEMO-P187,Morgan Sample 188,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-15,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-97,DEMO-P188,Riley Sample 189,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-16,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-98,DEMO-P189,Sam Sample 190,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-17,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-99,DEMO-P190,Taylor Sample 191,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-18,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-100,DEMO-P191,Casey Sample 192,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-19,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-101,DEMO-P192,Alex Sample 193,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-20,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-102,DEMO-P193,Cameron Sample 194,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-21,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-103,DEMO-P194,Jordan Sample 195,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-22,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-104,DEMO-P195,Morgan Sample 196,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-23,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-105,DEMO-P196,Riley Sample 197,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-24,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-106,DEMO-P197,Sam Sample 198,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-25,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-107,DEMO-P198,Taylor Sample 199,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-26,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-108,DEMO-P199,Casey Sample 200,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-27,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-109,DEMO-P200,Alex Sample 201,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-01,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-110,DEMO-P201,Cameron Sample 202,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-02,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-111,DEMO-P202,Jordan Sample 203,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-03,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-112,DEMO-P203,Morgan Sample 204,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-04,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-113,DEMO-P204,Riley Sample 205,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-05,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-114,DEMO-P205,Sam Sample 206,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-06,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-115,DEMO-P206,Taylor Sample 207,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-07,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-116,DEMO-P207,Casey Sample 208,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-08,Cary High School,Wake,Duke outreach,cancelled,175.00
+DEMO-2026-117,DEMO-P208,Alex Sample 209,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-09,Northern High School,Durham,Unknown,waitlisted,300.00
+DEMO-2026-118,DEMO-P209,Cameron Sample 210,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-10,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-119,DEMO-P0,Alex Sample 1,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-11,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-120,DEMO-P1,Cameron Sample 2,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-12,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-121,DEMO-P2,Jordan Sample 3,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-13,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-122,DEMO-P3,Morgan Sample 4,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-14,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-123,DEMO-P4,Riley Sample 5,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-15,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-124,DEMO-P5,Sam Sample 6,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-16,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-125,DEMO-P6,Taylor Sample 7,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-17,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-126,DEMO-P7,Casey Sample 8,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-18,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-127,DEMO-P8,Alex Sample 9,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-19,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-128,DEMO-P9,Cameron Sample 10,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-20,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-129,DEMO-P10,Jordan Sample 11,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-21,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-130,DEMO-P11,Morgan Sample 12,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-22,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-131,DEMO-P12,Riley Sample 13,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-23,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-132,DEMO-P13,Sam Sample 14,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-24,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-133,DEMO-P14,Taylor Sample 15,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-25,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-134,DEMO-P15,Casey Sample 16,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-26,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-135,DEMO-P16,Alex Sample 17,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-27,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-136,DEMO-P17,Cameron Sample 18,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-01,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-137,DEMO-P18,Jordan Sample 19,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-02,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-138,DEMO-P19,Morgan Sample 20,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-03,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-139,DEMO-P20,Riley Sample 21,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-04,Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,cancelled,225.00
+DEMO-2026-140,DEMO-P21,Sam Sample 22,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-05,Cary High School,Wake,Play’n Sports,confirmed,175.00
+DEMO-2026-141,DEMO-P22,Taylor Sample 23,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-06,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-142,DEMO-P23,Casey Sample 24,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-07,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-143,DEMO-P24,Alex Sample 25,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-08,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-144,DEMO-P25,Cameron Sample 26,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-09,Jordan High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-145,DEMO-P26,Jordan Sample 27,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-10,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-146,DEMO-P27,Morgan Sample 28,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-11,Cary High School,Wake,Duke outreach,waitlisted,175.00
+DEMO-2026-147,DEMO-P28,Riley Sample 29,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-12,Northern High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-148,DEMO-P29,Sam Sample 30,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-13,East Chapel Hill High School,Chapel Hill–Carrboro,Word of mouth,confirmed,225.00
+DEMO-2026-149,DEMO-P30,Taylor Sample 31,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-14,Riverside High School,Durham,Play’n Sports,confirmed,175.00
+DEMO-2026-150,DEMO-P31,Casey Sample 32,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-15,Jordan High School,Durham,Unknown,confirmed,300.00
+DEMO-2026-151,DEMO-P32,Alex Sample 33,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-16,Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-152,DEMO-P33,Cameron Sample 34,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-17,Cary High School,Wake,Duke outreach,confirmed,175.00
+DEMO-2026-153,DEMO-P34,Jordan Sample 35,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-18,Northern High School,Durham,Duke outreach,confirmed,300.00
+DEMO-2026-154,DEMO-P35,Morgan Sample 36,DEMO-C2026-0,Summer Skills Camp,Skills,2026-06-15,2026-06-18,2026-04-19,East Chapel Hill High School,Chapel Hill–Carrboro,Duke outreach,confirmed,225.00
+DEMO-2026-155,DEMO-P36,Riley Sample 37,DEMO-C2026-1,Youth Development Camp,Youth,2026-07-12,2026-07-15,2026-04-20,Riverside High School,Durham,Duke outreach,confirmed,175.00
+DEMO-2026-156,DEMO-P37,Sam Sample 38,DEMO-C2026-2,Fall Prospect Camp,Prospect,2026-11-21,2026-11-22,2026-04-21,Jordan High School,Durham,Duke outreach,confirmed,300.00

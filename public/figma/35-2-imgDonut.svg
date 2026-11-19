@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Donut">
+<path id="Track / open seats" d="M242 130C242 191.856 191.856 242 130 242C68.1441 242 18 191.856 18 130C18 68.1441 68.1441 18 130 18C191.856 18 242 68.1441 242 130Z" stroke-width="34" stroke="#BDB6AA"/>
+<path id="Segment / Unknown" d="M130 18C148.865 17.9999 167.425 22.7652 183.957 31.8538C200.489 40.9423 214.458 54.0596 224.566 69.9884C234.674 85.9172 240.596 104.141 241.78 122.97C242.964 141.798 239.373 160.62 231.34 177.69" stroke-width="34" stroke-linecap="round" stroke="#F4F1EA"/>
+<path id="Segment / Play&#226;&#128;&#153;n Sports" d="M130 18C146.487 17.9993 162.771 21.6387 177.689 28.6583C192.608 35.6779 205.792 45.9045 216.302 58.6081C226.811 71.3117 234.386 86.1788 238.486 102.148C242.586 118.117 243.11 134.795 240.02 150.99" stroke-width="34" stroke-linecap="round" stroke="#121212"/>
+<path id="Segment / Word of mouth" d="M130 18C159.298 17.9988 187.43 29.4779 208.364 49.9759C229.297 70.4738 241.365 98.3584 241.98 127.65" stroke-width="34" stroke-linecap="round" stroke="#8E867A"/>
+<path id="Segment / Duke outreach" d="M130 18C156.063 17.999 181.31 27.0875 201.393 43.7C221.475 60.3125 235.136 83.4088 240.02 109.01" stroke-width="34" stroke-linecap="round" stroke="#C14242"/>
+<path id="Goal marker / 105 (70%)" d="M23.48 173.61C28.4506 173.61 32.48 169.581 32.48 164.61C32.48 159.639 28.4506 155.61 23.48 155.61C18.5094 155.61 14.48 159.639 14.48 164.61C14.48 169.581 18.5094 173.61 23.48 173.61Z" fill="#121212" stroke-width="3" stroke="#D1CBC0"/>
+</g>
+</svg>
