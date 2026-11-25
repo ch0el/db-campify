@@ -1,7 +1,9 @@
 import { createClient } from 'npm:@supabase/supabase-js@2';
-const origin = Deno.env.get('CAMPIFY_SITE_URL') || 'https://db-campify-joelihm1-5830.vercel.app';
-const headers = { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type', 'Access-Control-Allow-Methods':'POST, OPTIONS', 'Content-Type':'application/json', 'Vary':'Origin' };
+const origin = Deno.env.get('CAMPIFY_SITE_URL') || 'https://db-campify.vercel.app';
+const allowedOrigins = new Set([origin, 'https://db-campify.vercel.app', 'https://db-campify-joelihm1-5830.vercel.app']);
 Deno.serve(async req => {
+  const requestOrigin = req.headers.get('Origin');
+  const headers = { 'Access-Control-Allow-Origin': requestOrigin && allowedOrigins.has(requestOrigin) ? requestOrigin : origin, 'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type', 'Access-Control-Allow-Methods':'POST, OPTIONS', 'Content-Type':'application/json', 'Vary':'Origin' };
   if(req.method==='OPTIONS')return new Response('ok',{headers});
   const respond=(body:unknown,status=200)=>new Response(JSON.stringify(body),{status,headers});
   if(req.method!=='POST')return respond({error:'Method not allowed'},405);
