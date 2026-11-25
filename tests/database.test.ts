@@ -8,10 +8,11 @@ const PROGRAM = '33333333-3333-4333-8333-333333333333';
 let db: PGlite;
 beforeAll(async () => {
   db = new PGlite();
-  await db.exec(`create role authenticated; create role anon; create schema auth; create table auth.users(id uuid primary key); create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid$$; grant usage on schema auth to authenticated; grant execute on function auth.uid() to authenticated;`);
+  await db.exec(`create role authenticated; create role anon; create role service_role bypassrls; create schema auth; create table auth.users(id uuid primary key); create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid$$; grant usage on schema auth to authenticated; grant execute on function auth.uid() to authenticated;`);
   await db.exec(readFileSync(new URL('../supabase/migrations/202611190001_campify.sql', import.meta.url), 'utf8'));
   await db.exec(readFileSync(new URL('../supabase/migrations/202611190002_clear_sample_data.sql', import.meta.url), 'utf8'));
   await db.exec(readFileSync(new URL('../supabase/migrations/202611190003_staff_invitations.sql', import.meta.url), 'utf8'));
+  await db.exec(readFileSync(new URL('../supabase/migrations/202611240001_invitation_service_permissions.sql', import.meta.url), 'utf8'));
   await db.exec(`insert into auth.users values ('${USER}'), ('${OTHER}'); insert into public.programs values ('${PROGRAM}', 'Test'); insert into public.program_members values ('${PROGRAM}', '${USER}'); set role authenticated; set request.jwt.claim.sub = '${USER}';`);
 }, 30000);
 afterAll(async () => { await db?.close(); });
@@ -88,3 +89,14 @@ describe('Invitation administrator permissions', () => {
     await db.exec(`set request.jwt.claim.sub = '${USER}'`);
   });
 });
+
+ it('allows the invitation service to assign membership without allowing client escalation', async () => {
+  await db.exec('reset role; set role service_role');
+  try {
+    await db.exec(`insert into program_members values ('${PROGRAM}', '${OTHER}') on conflict (program_id,user_id) do update set user_id=excluded.user_id`);
+    expect((await db.query(`select * from program_members where user_id='${OTHER}'`)).rows).toHaveLength(1);
+  } finally {
+    await db.exec(`reset role; delete from program_members where user_id='${OTHER}'; set role authenticated; set request.jwt.claim.sub='${USER}'`);
+  }
+  await expect(db.exec(`insert into program_members values ('${PROGRAM}', '${OTHER}')`)).rejects.toThrow();
+ });

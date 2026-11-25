@@ -1,3 +1,4 @@
+import { FunctionsHttpError } from '@supabase/supabase-js';
 import { useState, type FormEvent } from 'react';
 import { supabase } from '../lib/supabase';
 const message = (e: unknown) => e instanceof Error ? e.message : String((e as {message?:string})?.message ?? 'Please try again.');
@@ -14,7 +15,7 @@ export function PasswordSetup({ ready, onDone }: {ready:boolean; onDone:()=>void
 }
 export function InviteStaff({programId}:{programId:string}) {
   const [email,setEmail]=useState('');const [busy,setBusy]=useState(false);const [status,setStatus]=useState('');const [error,setError]=useState('');
-  async function submit(e:FormEvent){e.preventDefault();if(!supabase)return;setBusy(true);setError('');setStatus('');try{const {data,error}=await supabase.functions.invoke('invite-staff',{body:{email:email.trim(),program_id:programId}});if(error)throw new Error('Invitation could not be sent. Check that the invitation service and email delivery are configured.');if(data?.error)throw new Error(data.error);setStatus('Invitation sent. Your colleague can follow the email link to set their own password.');setEmail('');}catch(e){setError(message(e));}finally{setBusy(false);}}
+  async function submit(e:FormEvent){e.preventDefault();if(!supabase)return;setBusy(true);setError('');setStatus('');try{const {data,error}=await supabase.functions.invoke('invite-staff',{body:{email:email.trim(),program_id:programId}});if(error){let detail='Invitation could not be sent. Check that the invitation service and email delivery are configured.';if(error instanceof FunctionsHttpError){const body=await error.context.json().catch(()=>null);if(typeof body?.error==='string')detail=body.error;}throw new Error(detail);}if(data?.error)throw new Error(data.error);setStatus('Invitation sent. Your colleague can follow the email link to set their own password.');setEmail('');}catch(e){setError(message(e));}finally{setBusy(false);}}
   return <section className="panel narrow"><h2>Invite staff</h2><p>Invite a colleague to this program. They will be able to view and import enrollment data and manage goals.</p><form onSubmit={submit}><label>Staff email<input type="email" required autoComplete="off" value={email} onChange={e=>setEmail(e.target.value)} placeholder="colleague@duke.edu" /></label><button className="primary" disabled={busy}>{busy?'Sending invitation…':'Send invitation'}</button></form>{status&&<p role="status">{status}</p>}{error&&<p role="alert" className="error">{error}</p>}</section>;
 }
 
