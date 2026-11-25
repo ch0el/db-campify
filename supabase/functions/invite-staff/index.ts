@@ -1,6 +1,6 @@
 import { createClient } from 'npm:@supabase/supabase-js@2';
-const origin = Deno.env.get('CAMPIFY_SITE_URL')!;
-const headers = { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type', 'Content-Type':'application/json', 'Vary':'Origin' };
+const origin = Deno.env.get('CAMPIFY_SITE_URL') || 'https://db-campify-joelihm1-5830.vercel.app';
+const headers = { 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type', 'Access-Control-Allow-Methods':'POST, OPTIONS', 'Content-Type':'application/json', 'Vary':'Origin' };
 Deno.serve(async req => {
   if(req.method==='OPTIONS')return new Response('ok',{headers});
   const respond=(body:unknown,status=200)=>new Response(JSON.stringify(body),{status,headers});

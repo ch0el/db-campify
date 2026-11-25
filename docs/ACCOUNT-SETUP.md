@@ -13,8 +13,10 @@ An administrator invites staff from Profile → Invite staff. The recipient open
 5. Set the Edge Function secret `CAMPIFY_SITE_URL` to that production origin, without a trailing slash. Deploy `supabase/functions/invite-staff`. The function uses Supabase's server-only service role environment variable, verifies the caller's JWT with Auth, and checks `program_admins` before sending anything. The UI never receives the service key.
 6. Build/publish the frontend and test using an authorized test recipient. Confirm the invite opens the password setup screen, the new account sees the existing program, and a fresh recovery link permits password changes. Test expired links and an unauthorized caller.
 
-## Current delivery limitations
+## Current deployment status
 
-No live invitation has been sent or live password changed during implementation. SMTP and the final production destination require owner input. Supabase can reject invitation of an already registered email; existing members should use Forgot your password. If email is sent but assigning membership fails, the UI reports the partial failure; an administrator must repair membership rather than repeatedly sending invitations.
+The invitation function is deployed with the Vercel origin as its fallback redirect. Legacy JWT gateway verification is disabled, as declared in `supabase/config.toml`; the handler verifies sessions through Supabase Auth and checks program_admins before sending email or assigning membership. The Duke account is an invitation administrator. The Gmail account belongs to the same existing Duke Baseball Camps program.
 
-The existing ChatGPT Site is owner-private: a client cannot reach an invite callback there until granted hosting access. Use the intended Vercel or other client-accessible production site for handoff.
+Gmail SMTP has been configured, and Supabase previously confirmed sending the Gmail invitation. No passwords are stored in this repository. An existing email may be rejected by the invite API; existing members should use Forgot your password. If membership assignment fails after an email is sent, the function reports that partial failure rather than claiming success.
+
+A live administrator-session test is required to confirm the complete invitation flow. The Vercel hosting access barrier must also be resolved before handing the app to a new client.

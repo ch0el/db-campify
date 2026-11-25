@@ -1,0 +1,3 @@
+[functions.invite-staff]
+# The handler verifies the access token with Supabase Auth, then checks program_admins.
+verify_jwt = false
